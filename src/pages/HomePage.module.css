@@ -1,0 +1,71 @@
+.base_cntnr {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_cntnr {
+  display: flex;
+  max-width: 1440px;
+  width: 1440px;
+  padding: 48px;
+  height: 100vh;
+}
+
+.left_cntnr {
+  width: 50%;
+  background: #d3d3d3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.img_cntnr {
+  width: 400px;
+}
+
+.right_cntnr {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo_cntnr {
+  width: 58px;
+}
+
+.logo_cntnr {
+  object-fit: cover;
+}
+
+.game_title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 58px;
+  letter-spacing: 0.04rem;
+  line-height: 100%;
+  margin-bottom: 12px;
+}
+
+.game_sub_title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 72px;
+}
+
+.play_btn {
+  background-color: #ca000a;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
