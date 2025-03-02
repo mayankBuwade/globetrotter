@@ -70,3 +70,23 @@
   border-radius: 10px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 650px) {
+  .main_cntnr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    padding: 5px;
+    height: 100vh;
+    row-gap: 22px;
+  }
+  .left_cntnr {
+    width: 300px;
+  }
+  .right_cntnr {
+    width: 100%;
+  }
+}

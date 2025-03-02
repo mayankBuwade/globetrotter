@@ -21,6 +21,7 @@
   line-height: 103%;
   align-self: center;
   margin-bottom: 32px;
+  text-transform: capitalize;
 }
 
 .top_cntnr {
@@ -64,4 +65,34 @@
   border-radius: 10px;
   cursor: pointer;
   margin-top: auto;
+}
+
+@media screen and (max-width: 650px) {
+  .result_card {
+    width: 95%;
+    height: fit-content;
+    padding: 10px;
+  }
+  .card_text {
+    font-weight: 500;
+  }
+  .top_cntnr {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  .logo_cntnr {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+
+  .btm_cntnr {
+    gap: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .share_btn,
+  .play_again_btn {
+    font-size: 16px;
+  }
 }

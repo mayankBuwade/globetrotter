@@ -65,18 +65,24 @@
   cursor: pointer;
 }
 
+.other_optns {
+  align-self: center;
+  margin-top: auto;
+  display: flex;
+  gap: 16px;
+}
+
 .game_play_option_btn {
   background-color: #ff9800;
-  align-self: center;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 18px;
   padding: 8px 16px;
   border-radius: 10px;
   cursor: pointer;
-  margin-top: auto;
 }
 
+.city_btn:disabled,
 .game_play_option_btn:disabled {
   background: #e0a060;
   color: #4d4d4d;
@@ -86,4 +92,29 @@
 .btm_card {
   align-self: flex-start;
   margin-top: auto;
+}
+
+@media screen and (max-width: 650px) {
+  .base_cntnr {
+    height: fit-content;
+  }
+  .main_cntnr {
+    width: 100%;
+    max-width: 100%;
+    padding: 15px;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+  }
+  .top_cntnr {
+    height: fit-content;
+    margin-bottom: 20px;
+  }
+  .card {
+    width: 100%;
+  }
+  .btn_cntnr {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
 }

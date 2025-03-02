@@ -1,8 +1,12 @@
+import { useNavigate } from "react-router-dom";
+
 import IntroImage from "../assets/images/HomePage/game_home_img.png";
 import GameLogo from "../assets/images/HomePage/game_logo.png";
 import styles from "./HomePage.module.css";
 
 const HomePage = () => {
+  const navigate = useNavigate();
+
   return (
     <div className={styles.base_cntnr}>
       <div className={styles.main_cntnr}>
@@ -17,7 +21,9 @@ const HomePage = () => {
           </div>
           <h1 className={styles.game_title}>Globetrotter</h1>
           <span className={styles.game_sub_title}>Destination Challenge</span>
-          <button className={styles.play_btn}>Play Game</button>
+          <button className={styles.play_btn} onClick={() => navigate("/quiz")}>
+            Play Game
+          </button>
         </div>
       </div>
     </div>
