@@ -7,15 +7,16 @@
 
 .main_cntnr {
   display: flex;
+  width: 100%;
   max-width: 1440px;
-  width: 1440px;
   padding: 48px;
   height: 100vh;
 }
 
 .left_cntnr {
   width: 50%;
-  background: #d3d3d3;
+  /* background: #d3d3d3; */
+  background: #e6e6e6;
   display: flex;
   justify-content: center;
   align-items: center;

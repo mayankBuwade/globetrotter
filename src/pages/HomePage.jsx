@@ -2,7 +2,7 @@ import IntroImage from "../assets/images/HomePage/game_home_img.png";
 import GameLogo from "../assets/images/HomePage/game_logo.png";
 import styles from "./HomePage.module.css";
 
-export const HomePage = () => {
+const HomePage = () => {
   return (
     <div className={styles.base_cntnr}>
       <div className={styles.main_cntnr}>
@@ -23,3 +23,5 @@ export const HomePage = () => {
     </div>
   );
 };
+
+export default HomePage;
